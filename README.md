@@ -1,6 +1,5 @@
 # my-finance-tracker
 
-
 # Budget Tracker with MongoDb, IndexDb, Express, and Node
 
 ![badge](https://img.shields.io/badge/MIT-License-Green)
@@ -26,20 +25,24 @@ The goal of this project was to create a budget tracker that can be accessible o
 
 ## Installation
 
-Clone the GitHub repo to the user's computer. Run "npm i" in the terminal to install all of the necessary packages. Then, the user can start the server using "npm start". Next, the user can navigate to their localhost:3001, or this link to begin tracking their budget.
+Clone the GitHub repo to the user's computer. Run "npm i" in the terminal to install all of the necessary packages. Then, the user can start the server using "npm start" or visit the live link on Heroku [here](https://whispering-lowlands-53216.herokuapp.com). Next, the user can navigate to their localhost:3001, or this link to begin tracking their budget online or offline.
 
 ## Usage
 
-If the user wishes to post a user to the database, they can use insomnia and change the endpoints to /api/users. If they wish to post a thought, they can post a thought at the /api/thoughts endpoint. They can also display the data in the browser on http://localhost:3001/api/users or which ever endpoint they would like to use. In insomnia, the user can create, update, or delete data from the database by changing the method and endpoint of the url. 
+Once the application is open, the user can submit transactions that add or subtract funds from their budget.  
 
-Here is a screenshot of what the user data looks like in insomnia:
+Here is a screenshot of what the application looks like in the browser:
 
-![screenshot-of-userData](images/createdUser.jpg)
+![screenshot-of-app](images/main.jpg)
 
 
-Here is a screenshot of what the thought data looks like in insomnia:
+Here is a screenshot of what the application looks like once the user has added transactions offline:
 
-![screenshot-of-thoughtData](images/postThoughts.jpg)
+![screenshot-of-offline-app](images/offline.jpg)
+
+Once the user is back online, the transactions they added will stay there: 
+
+![screenshot-back-online-app](images/backOnline.jpg)
 
 ## License 
 
@@ -56,8 +59,7 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ## Contributing
-Eric Sayer T.A.
-Karina T.A.
+
 
 ## Questions
 
